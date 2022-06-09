@@ -51,6 +51,33 @@
 
 	</head>
 	<body>
+	<div class="splash-wrapper">
+  <img src="https://ibb.co/K9wQXBY" width="500" height="auto"></img>
+    
+</div>
+
+<style>
+.splash-wrapper{
+  position: fixed;
+  z-index: 9999;
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  animation-name: slideOut;
+  animation-fill-mode: forwards;
+  animation-duration: 2.38s;
+  animation-delay: 3.375s;
+}
+
+@keyframes slideOut{
+  from{margin-left: 0vw;}
+  to{margin-left: -150vw;}
+}
+</style>
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
