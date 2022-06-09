@@ -60,6 +60,40 @@ img {
   margin-right: auto;
 }
 </style>
+<style>
+.splash-wrapper {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+</style>
 </div>
 
 <style>
@@ -73,10 +107,6 @@ img {
   flex-flow: column nowrap
   justify-content: center;
   align-items: center;
-  animation-name: FadeOut;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-delay: 3s;
 }
 
 @keyframes slideOut{
