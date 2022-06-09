@@ -52,7 +52,7 @@
 	</head>
 	<body>
 	<div class="splash-wrapper">
-  <img src="https://i.postimg.cc/xT5QrDCS/loader.gif" width="60" height="50" style="width:50%;"></img>
+  <img src="https://i.postimg.cc/xT5QrDCS/loader.gif" width="50" height="50" style="width:50%;"></img>
     <style>
 img {
   display: block;
@@ -62,44 +62,6 @@ img {
 </style>
 <style>
 .splash-wrapper {
-  animation: fadeOut 4s;
-  -webkit-animation: fadeOut 4s;
-  -moz-animation: fadeOut 4s;
-  -o-animation: fadeOut 4s;
-  -ms-animation: fadeOut 4s;
-  animation-duration: 3s;
-  animation-delay: 3.1s;
-}
-
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-moz-keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-o-keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-ms-keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-</style>
-</div>
-
-<style>
-.splash-wrapper{
   position: fixed;
   z-index: 9999;
   background-color: #86FF0000;
@@ -109,9 +71,36 @@ img {
   flex-flow: column nowrap
   justify-content: center;
   align-items: center;
+  animation: fadeIn 4s forwards;
+  -webkit-animation: fadeIn 4s forwards;
+  -moz-animation: fadeIn 4s forwards;
+  -o-animation: fadeIn 4s forwards;
+  -ms-animation: fadeIn 4s forwards;
+  animation-duration: 3s;
+  animation-delay: 3.1s;
 }
 
-@keyframes fadeOut {
+@keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-ms-keyframes fadeIn {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
