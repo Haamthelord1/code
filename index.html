@@ -79,7 +79,16 @@ img {
   animation-duration: 4s;
   animation-delay: 0.5s;
 }
-
+@keyframes fadeInRight {
+   0% {
+      opacity: 0;
+      transform: translateX(20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
 @keyframes fadeIn {
   0% { opacity: 1; height: 100vh; }
   100% { opacity: 0; height: 0vh; }
