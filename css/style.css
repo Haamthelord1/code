@@ -251,7 +251,7 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
+      bottom: 10px;
       z-index: 1000;
       left: 20px;
       float: left;
@@ -262,7 +262,7 @@ figure {
           top: 100px; } }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
           -webkit-box-shadow: none;
