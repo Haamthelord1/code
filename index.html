@@ -71,39 +71,11 @@ img {
   flex-flow: column nowrap
   justify-content: center;
   align-items: center;
-  animation: fadeIn 3s forwards;
-  -webkit-animation: fadeIn 3s forwards;
-  -moz-animation: fadeIn 3s forwards;
-  -o-animation: fadeIn 3s forwards;
-  -ms-animation: fadeIn 3s forwards;
-  animation-duration: 4s;
-  animation-delay: 0.5s;
 }
-@keyframes fadeIn {
-  0% { opacity: 1; height: 100vh; }
-  100% { opacity: 0; height: 0vh; }
-}
-
-@-moz-keyframes fadeIn {
-  0% { opacity: 1; height: 100vh; }
-  100% { opacity: 0; height: 0vh; }
-}
-
-@-webkit-keyframes fadeIn {
-  0% { opacity: 1; height: 100vh; }
-  100% { opacity: 0; height: 0vh; }
-}
-
-@-o-keyframes fadeIn {
-  0% { opacity: 1; height: 100vh; }
-  100% { opacity: 0; height: 0vh; }
-}
-
-@-ms-keyframes fadeIn {
-  0% { opacity: 1; height: 100vh;}
-  100% { opacity: 0; height: 0vh; }
-} 
 </style>
+<script>
+const splash_wrapper = document.querySelector(".splash-wrapper"); const key_frames = [ { opacity: '1'}, { opacity: '0'} ]; const timing_options = { duration: 4000, iterations: 1, } setTimeout(function() { splash_wrapper.animate(key_frames, timing_options).finished.then(function() { splash_wrapper.style.display = 'none'; }); }, 3100);
+</script>
 </div>
 	<div id="colorlib-page">
 		<div class="container-wrap">
